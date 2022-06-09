@@ -1,0 +1,43 @@
+.quality {
+    margin-bottom: 168px;
+
+
+    .quality__container {
+        background-color: #2C343E;
+        border-radius: 10px;
+        padding: 88px 85px;
+        position: relative;
+        padding-bottom: 176px;
+    }
+
+    .background--flow {
+        width: 445px;
+        height: 474px;
+        background: url("./images/quality-bg.png") no-repeat;
+        position: absolute;
+        top: -88px;
+        right: 85px;
+
+    }
+
+    .quality__wrapper {
+        width: 540px;
+    }
+
+    .quality__heading {
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FEFCF7;
+        margin-bottom: 32px;
+    }
+
+    .quality__text {
+
+        font-family: 'Barlow';
+        line-height: 26px;
+        color: rgba(254, 252, 247, 0.8);
+
+    }
+}

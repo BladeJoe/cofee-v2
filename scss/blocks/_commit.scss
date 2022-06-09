@@ -1,0 +1,46 @@
+.commit {
+    margin-bottom: 168px;
+
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        width: 1110px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    &__left {
+        background: url('./images/commit-left.png') no-repeat;
+        width: 445px;
+        height: 520px;
+    }
+
+    &__right {
+        width: 540px;
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        flex-flow: column wrap;
+    }
+
+    &__right__heading {
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #333D4B;
+        margin: 0;
+        margin-bottom: 32px;
+    }
+
+    &__right__text {
+        font-family: 'Barlow';
+        line-height: 26px;
+        font-size: 16px;
+        color: rgba(51, 61, 75, 0.8);
+        mix-blend-mode: normal;
+        margin: 0;
+
+    }
+}

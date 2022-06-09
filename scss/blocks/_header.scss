@@ -1,0 +1,37 @@
+.header{
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 0;
+    }
+}
+
+.nav{
+    
+    
+    &__list {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        list-style-type: none;
+        padding: 0;
+    
+    }
+    
+    &__list-item {
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+        font-family: "Barlow";
+        color: #83888F;
+        margin-right: 33px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    
+    &__list__item:last-child {
+        margin-right: 0;
+    }
+}

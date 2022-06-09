@@ -1,0 +1,35 @@
+.hero {
+
+     &__container {
+        background: url("./../images/hero-bg.jpg") no-repeat center;
+        border-radius: 10px;
+        margin-bottom: 120px;
+        padding: 117px 85px;
+    }
+
+     &__item__content {
+        max-width: 500px;
+    }
+
+     &__heading {
+        width: 493px;
+        margin-bottom: 32px;
+        font-family: "Fraunces";
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FEFCF7;
+        margin-top: 0;
+    }
+
+     &__text {
+        color: rgba(254, 252, 247, 0.8);
+        max-width: 400px;
+        font-family: "Barlow";
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 65px;
+    }
+
+    
+}
