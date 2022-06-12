@@ -1,0 +1,32 @@
+.create-hero {
+  margin-bottom: 168px;
+}
+
+.create-hero__container {
+  background: #A2A2A2 url("./../images/create-hero.png") no-repeat;
+  padding: 137px 85px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.create-hero__heading {
+  font-family: 'Fraunces';
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.create-hero__text {
+  font-family: 'Barlow';
+  line-height: 26px;
+  margin: 0;
+  color: #FEFCF7;
+}
+
+.create-hero__wrapper {
+  width: 445px;
+}
+/*# sourceMappingURL=subscribe.css.map */

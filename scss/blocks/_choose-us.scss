@@ -55,7 +55,7 @@
     }
 
     &__box__item {
-        width: 255px;
+        width: 350px;
         position: relative;
         top: -231px;
         background-color: #0E8784;
@@ -86,38 +86,4 @@
         color: #FEFCF7;
         margin: 0;
     }
-}
-
-.box {
-
-
-    .box1 {
-        background: url("./images/coffee-bean.svg") no-repeat center, #0E8784;
-        background-position: center;
-        width: 255px;
-        height: 200px;
-        padding: auto;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    .box2 {
-        background: url("./images/gift.svg") no-repeat center, #0E8784;
-        background-position: center;
-        width: 255px;
-        height: 200px;
-        padding: auto;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    .box3 {
-        background: url("./images/delivery.svg") no-repeat center, #0E8784;
-        background-position: center;
-        width: 255px;
-        height: 200px;
-        padding: auto;
-        margin-right: auto;
-        margin-left: auto;
-    }
-}
+} 
