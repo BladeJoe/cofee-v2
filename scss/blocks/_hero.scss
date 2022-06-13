@@ -1,17 +1,17 @@
 .hero {
 
-     &__container {
+    &__container {
         background: url("./../images/hero-bg.jpg") no-repeat center;
         border-radius: 10px;
         margin-bottom: 120px;
         padding: 117px 85px;
     }
 
-     &__item__content {
+    &__item__content {
         max-width: 500px;
     }
 
-     &__heading {
+    &__heading {
         width: 493px;
         margin-bottom: 32px;
         font-family: "Fraunces";
@@ -22,7 +22,7 @@
         margin-top: 0;
     }
 
-     &__text {
+    &__text {
         color: rgba(254, 252, 247, 0.8);
         max-width: 400px;
         font-family: "Barlow";
@@ -31,5 +31,6 @@
         margin-bottom: 65px;
     }
 
-    
-}
+
+
+} 
